@@ -937,4 +937,9 @@
 	<changeSet author="arpost" id="1361552652236-45">
 		<dropColumn tableName="DESTINATIONS" columnName="UPDATED_AT"/>
 	</changeSet>
+	<changeset author="hrathod" id="1361552652236-46">
+		<addColumn tableName="JOBS">
+			<column name="AUTH_TOKEN" type="TEXT" />
+		</addColumn>
+	</changeset>
 </databaseChangeLog>
